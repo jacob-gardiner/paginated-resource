@@ -1,0 +1,21 @@
+{
+    "name": "jacobgardiner/paginated-resource",
+    "description": "Add Pagination to your resource collections",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Jacob Gardiner",
+            "email": "jacobegardiner@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-4": {
+            "Jacobgardiner\\Paginatedresource\\": "src/"
+        }
+    },
+    "require": {},
+    "require-dev": {
+        "orchestra/testbench": "^6.0@dev"
+    }
+}
