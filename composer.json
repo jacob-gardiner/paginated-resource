@@ -1,20 +1,32 @@
 {
     "name": "jacobgardiner/paginated-resource",
+    "version": "1.0.0",
+    "keywords": [
+        "laravel",
+        "pagination",
+        "collection"
+    ],
+    "homepage": "https://github.com/jacob-gardiner/paginated-resource",
+    "license": "MIT",
     "description": "Add Pagination to your resource collections",
     "type": "library",
     "authors": [
         {
             "name": "Jacob Gardiner",
-            "email": "jacobegardiner@gmail.com"
+            "email": "jacobegardiner@gmail.com",
+            "role": "Wizard"
         }
     ],
     "minimum-stability": "dev",
     "autoload": {
         "psr-4": {
-            "Jacobgardiner\\Paginatedresource\\": "src/"
+            "JacobGardiner\\PaginatedResource\\": "src/"
         }
     },
-    "require": {},
+    "require": {
+        "php": "^7.2",
+        "illuminate/support": "^6.0|^7.0"
+    },
     "require-dev": {
         "orchestra/testbench": "^6.0@dev"
     }
